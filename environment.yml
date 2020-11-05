@@ -11,6 +11,5 @@ dependencies:
 
   - pip:
       # Install nupic.torch in develop mode
-      - -r requirements-dev.txt
-      - -e . --no-binary :all
+      - -e ".[dev]" --no-binary :all
 
